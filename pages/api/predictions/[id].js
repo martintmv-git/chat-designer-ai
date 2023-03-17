@@ -3,7 +3,7 @@ const API_HOST = process.env.REPLICATE_API_HOST || "https://api.replicate.com";
 export default async function handler(req, res) {
   const response = await fetch(`${API_HOST}/v1/predictions/${req.query.id}`, {
     headers: {
-      Authorization: `Token ${process.env.API_KEY}`,
+      Authorization: `Token ${process.env.REPLICATE_API_TOKEN}`,
       "Content-Type": "application/json",
     },
   });
