@@ -1,5 +1,5 @@
 ## AI tool for Designer AI 
-### Powered by <b>Pix2Pix</b> & <b>Replicate</b>
+### Powered by <b>instruct-pix2pix</b>
 #### Visit [Designer AI Front-End Repository](https://github.com/martintmv-git/designer-AI) </br>
 This app is powered by:
 
